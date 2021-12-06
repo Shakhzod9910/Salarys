@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.home{
+    
+    width: 100%;
+    height: 100vh;
+}
+
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+
+}
+
+.list{
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-items{
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.list-items span{
+    width: 200px;
+    background-color: transparent;
+}
+
+.default-names {
+    font-weight: bold;
+    background-color: rgb(96, 211, 211);
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form{
+    display: flex;
+    justify-content: flex-end;
+    width: 65.7%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.form input{
+    width: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid rgb(96, 211, 211);
+    margin: 0 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+
+  .form button{
+      color: #fff;
+      background-color: rgb(96, 211, 211);
+      width: 60px;
+      height: 20px;
+      border-radius: 5px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      border: none;
+      transition: all 0.3s ease;
+  }
+
+  .form button:hover{
+      background-color: rgb(40, 143, 143);
+  }
+
+  .page-numbers{
+      display: flex;
+      width: 400px;
+      height: 40px;
+      margin-right: auto;
+      margin-left: auto;
+      justify-content:space-around;
+      align-items: flex-start;
+      margin-top: 20px;
+      padding-bottom: 50px;      
+  }
+
+  .page-numbers li {
+      color: blue;
+  }
+
+  .page-numbers li:hover{
+      cursor: pointer;
+  }
+
+  .active{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 22px;
+      height: 22px;
+      background-color:rgb(96, 211, 211) ;
+      border-radius: 50%;
+  }
